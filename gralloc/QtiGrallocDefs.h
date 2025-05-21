@@ -106,6 +106,9 @@
 
 /* Bit 60 is reserved */
 
+/* This flag is used to indicate cloned multiview use case */
+#define GRALLOC_USAGE_PRIVATE_CLONED_MULTIVIEW   1ULL << 61
+
 // OEM specific HAL formats
 #define HAL_PIXEL_FORMAT_RGBA_5551 6
 #define HAL_PIXEL_FORMAT_RGBA_4444 7
